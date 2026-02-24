@@ -25,7 +25,6 @@ The splitting logic is simple and equal among all members. No percentage splits 
 ## Tech Stack Used
 
 - Node.js
-- Express.js
 - MySQL
 - Sequelize ORM
 
