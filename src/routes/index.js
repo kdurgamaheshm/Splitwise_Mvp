@@ -5,11 +5,11 @@ const userController = require('../controllers/userController');
 const expenseController = require('../controllers/expenseController');
 
 // User Routes
-router.post('/users/signup', userController.createUser);
-router.post('/users/login', userController.login);
-router.get('/users/profile', userController.getProfile);
-router.put('/users/profile', userController.updateProfile);
-router.delete('/users/account', userController.deleteAccount);
+router.post('/signup', userController.createUser);
+router.post('/login', userController.login);
+router.get('/profile', userController.getProfile);
+router.put('/profile', userController.updateProfile);
+router.delete('/account', userController.deleteAccount);
 
 // Expense Routes
 router.post('/expenses', expenseController.addExpense);
